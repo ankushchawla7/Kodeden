@@ -49,7 +49,7 @@ const Header = () => {
                         <img src={HeroImg} alt="codegen-course-video" className='xl:max-w-[996px] xl:w-full w-full md:w-[75%] rounded-[24px] mx-auto' />
                     </div>
                 </div>
-                <img src={HeroSideVector} alt="vector-curve" className='absolute right-[7%] hidden md:block top-[35%] w-[110.87px]' />
+                <img src={HeroSideVector} alt="vector-curve" className='absolute right-[7%] hidden 2xl:block top-[35%] w-[110.87px]' />
             </header>
             <div className='px-4'>
                 <p className='text-[20px] sm:text-[24px] lg:text-center mx-auto uppercase leading-[1.292] mt-5 font-semibold text-white'>Become a <span className='gradient-text'> Software </span> Engineer Now!</p>
