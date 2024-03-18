@@ -8,6 +8,11 @@
   font-family: "Jost", sans-serif;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 .ff-jost {
   font-family: "Jost", sans-serif;
 }
@@ -18,6 +23,12 @@
 
 .button-gradient {
   background: linear-gradient(146.43deg, #FF2801 1.77%, #FF6B0A 62.74%);
+  transition: all 200ms linear;
+}
+
+.button-gradient:hover {
+  box-shadow: 4px 4px 12px orangered;
+  border-radius: 10px !important;
 }
 
 .nav_link:hover {
