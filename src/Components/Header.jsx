@@ -45,7 +45,7 @@ const Header = () => {
                             </ul>
                             <a href='/' className=' bg-gradient-to-br from-[#FF2801] to-[#FF6B0A] transition-all duration-300 ease-linear text-[14px] font-black text-[#F4F4F4] py-3 px-6 rounded-[2px] button-gradient leading-[1.429]' >Get Started</a>
                         </div>
-                        <div className='cursor-pointer relative z-[3] lg:hidden' onClick={() => setShowNav(!showNav)}>{showNav ? <img src={close} alt='close' /> : <img src={open} alt='open' />}</div>
+                        <div className='cursor-pointer relative z-[3] lg:hidden' onClick={() => setShowNav(!showNav)}>{showNav ? <img src={close} alt='close' className='max-sm:h-[35px]' /> : <img src={open} alt='open' className='max-sm:h-[35px]' />}</div>
                     </div>
                 </nav>
                 <div className="hero-section flex flex-col grow pt-10 lg:pt-[77px]">
