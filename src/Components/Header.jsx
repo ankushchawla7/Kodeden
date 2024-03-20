@@ -35,7 +35,7 @@ const Header = () => {
                         <a href="/"><img src={headerLogo} alt="kodeden" className='h-[47px] w-[58px]' /></a>
                         <div className='flex items-center gap-[26px]'>
                             <ul className={`${showNav ? "start-0" : "start-[-100%]"} max-md:fixed z-[2] max-md:bg-black max-md:w-full max-md:min-h-screen max-md:top-0 max-md:flex-col max-md:text-[25px] max-md:justify-center max-md:transition-all duration-300 ease-linear  text-[#A2A2A2] flex items-center gap-8`}>
-                                {navLinks.map((e,index) => {
+                                {navLinks.map((e, index) => {
                                     return (
                                         <>
                                             <li key={index}><a onClick={movement} className='font-medium nav_link hover:bg-contain hover:bg-gradient-to-br from-[#ff2801] to-[#ff6b04] transition-all duration-300 ease-linear' href={e.link}>{e.title}</a></li>
@@ -45,7 +45,7 @@ const Header = () => {
                             </ul>
                             <a href='/' className=' bg-gradient-to-br from-[#FF2801] to-[#FF6B0A] transition-all duration-300 ease-linear text-[14px] font-black text-[#F4F4F4] py-3 px-6 rounded-[2px] button-gradient leading-[1.429]' >Get Started</a>
                         </div>
-                        <div className='cursor-pointer relative z-[3] lg:hidden' onClick={() => setShowNav(!showNav)}>{showNav ? <img src={close} alt='close' className='max-sm:h-[35px]' /> : <img src={open} alt='open' className='max-sm:h-[35px]' />}</div>
+                        <div className='cursor-pointer relative z-[3] md:hidden' onClick={() => setShowNav(!showNav)}>{showNav ? <img src={close} alt='close' className='max-sm:h-[35px]' /> : <img src={open} alt='open' className='max-sm:h-[35px]' />}</div>
                     </div>
                 </nav>
                 <div className="hero-section flex flex-col grow pt-10 lg:pt-[77px]">
