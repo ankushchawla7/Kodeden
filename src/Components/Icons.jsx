@@ -1,5 +1,3 @@
-import React from 'react'
-
 const PhoneCallIcon = () => {
     return (
         <>
@@ -14,7 +12,7 @@ const PhoneCallIcon = () => {
 export const TwitterIcon = () => {
     return (
         <>
-            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className=' hover:translate-y-[-5px] transition-all duration-300 ease-linear' width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.395481" y="0.395481" width="35.5933" height="35.5933" rx="17.7966" fill="white" fill-opacity="0.05" stroke="url(#paint0_linear_2_1985)" stroke-width="0.790962" />
                 <g clip-path="url(#clip0_2_1985)">
                     <path d="M27.5829 12.606C26.9224 12.8986 26.2129 13.0964 25.467 13.1857C26.2367 12.7252 26.8124 12.0005 27.0869 11.1466C26.3639 11.5761 25.5725 11.8784 24.7473 12.0404C24.1923 11.4479 23.4573 11.0552 22.6562 10.9232C21.8552 10.7912 21.033 10.9274 20.3173 11.3106C19.6016 11.6938 19.0324 12.3025 18.6981 13.0423C18.3638 13.7822 18.2832 14.6117 18.4686 15.402C17.0035 15.3285 15.5702 14.9477 14.2618 14.2843C12.9534 13.621 11.7991 12.6899 10.8738 11.5516C10.5574 12.0974 10.3755 12.7302 10.3755 13.4041C10.3751 14.0107 10.5245 14.6081 10.8104 15.1432C11.0963 15.6782 11.5099 16.1345 12.0144 16.4714C11.4293 16.4528 10.8571 16.2947 10.3454 16.0103V16.0577C10.3454 16.9086 10.6397 17.7333 11.1785 18.3919C11.7172 19.0504 12.4673 19.5023 13.3013 19.6708C12.7585 19.8177 12.1894 19.8394 11.6371 19.7341C11.8724 20.4662 12.3307 21.1065 12.948 21.5651C13.5652 22.0238 14.3105 22.278 15.0793 22.2921C13.7741 23.3167 12.1622 23.8725 10.5028 23.8701C10.2089 23.8701 9.91522 23.853 9.62329 23.8186C11.3076 24.9016 13.2683 25.4764 15.2708 25.4741C22.0493 25.4741 25.755 19.8599 25.755 14.9907C25.755 14.8325 25.751 14.6728 25.7439 14.5146C26.4647 13.9933 27.0869 13.3478 27.5813 12.6083L27.5829 12.606Z" fill="url(#paint1_linear_2_1985)" />
@@ -33,14 +31,13 @@ export const TwitterIcon = () => {
                     </clipPath>
                 </defs>
             </svg>
-
         </>
     )
 }
 export const InstagramIcon = () => {
     return (
         <>
-            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className=' hover:translate-y-[-5px] transition-all duration-300 ease-linear' width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.395237" y="0.644138" width="35.5933" height="35.5933" rx="17.7966" fill="white" fill-opacity="0.05" stroke="url(#paint0_linear_2_1991)" stroke-width="0.790962" />
                 <path d="M18.3671 15.9691C17.0064 15.9691 15.896 17.0796 15.896 18.4403C15.896 19.801 17.0064 20.9114 18.3671 20.9114C19.7278 20.9114 20.8383 19.801 20.8383 18.4403C20.8383 17.0796 19.7278 15.9691 18.3671 15.9691ZM25.7787 18.4403C25.7787 17.417 25.788 16.4029 25.7305 15.3815C25.673 14.195 25.4024 13.1421 24.5348 12.2745C23.6654 11.4051 22.6142 11.1362 21.4278 11.0788C20.4045 11.0213 19.3904 11.0306 18.369 11.0306C17.3457 11.0306 16.3317 11.0213 15.3102 11.0788C14.1238 11.1362 13.0708 11.4069 12.2032 12.2745C11.3338 13.1439 11.065 14.195 11.0075 15.3815C10.95 16.4048 10.9593 17.4188 10.9593 18.4403C10.9593 19.4617 10.95 20.4776 11.0075 21.4991C11.065 22.6855 11.3356 23.7385 12.2032 24.6061C13.0726 25.4755 14.1238 25.7443 15.3102 25.8018C16.3335 25.8593 17.3475 25.85 18.369 25.85C19.3923 25.85 20.4063 25.8593 21.4278 25.8018C22.6142 25.7443 23.6672 25.4737 24.5348 24.6061C25.4042 23.7366 25.673 22.6855 25.7305 21.4991C25.7898 20.4776 25.7787 19.4636 25.7787 18.4403ZM18.3671 22.2425C16.2631 22.2425 14.565 20.5444 14.565 18.4403C14.565 16.3362 16.2631 14.6381 18.3671 14.6381C20.4712 14.6381 22.1693 16.3362 22.1693 18.4403C22.1693 20.5444 20.4712 22.2425 18.3671 22.2425ZM22.325 15.3704C21.8338 15.3704 21.4371 14.9736 21.4371 14.4824C21.4371 13.9911 21.8338 13.5944 22.325 13.5944C22.8163 13.5944 23.213 13.9911 23.213 14.4824C23.2132 14.599 23.1903 14.7146 23.1457 14.8224C23.1012 14.9302 23.0357 15.0281 22.9533 15.1106C22.8708 15.1931 22.7728 15.2585 22.665 15.3031C22.5572 15.3476 22.4417 15.3705 22.325 15.3704Z" fill="url(#paint1_linear_2_1991)" />
                 <defs>
@@ -61,7 +58,7 @@ export const InstagramIcon = () => {
 export const TelegramIcon = () => {
     return (
         <>
-            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className=' hover:translate-y-[-5px] transition-all duration-300 ease-linear' width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.395237" y="0.892734" width="35.5933" height="35.5933" rx="17.7966" fill="white" fill-opacity="0.05" stroke="url(#paint0_linear_2_1997)" stroke-width="0.790962" />
                 <path d="M26.6253 12.8537L24.1189 24.6736C23.9297 25.5077 23.4367 25.7153 22.7361 25.3226L18.917 22.5084L17.0744 24.2809C16.8704 24.485 16.7001 24.6552 16.3068 24.6552L16.5815 20.7661L23.6592 14.3706C23.9671 14.0965 23.5922 13.944 23.1811 14.2187L14.4311 19.7285L10.6641 18.5492C9.84486 18.2935 9.83003 17.73 10.8349 17.3367L25.5688 11.6601C26.251 11.4045 26.8478 11.812 26.6253 12.8543V12.8537Z" fill="url(#paint1_linear_2_1997)" />
                 <defs>
@@ -82,7 +79,7 @@ export const TelegramIcon = () => {
 export const LinkdinIcon = () => {
     return (
         <>
-            <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className=' hover:translate-y-[-5px] transition-all duration-300 ease-linear' width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.395481" y="1.14145" width="35.5933" height="35.5933" rx="17.7966" fill="white" fill-opacity="0.05" stroke="url(#paint0_linear_2_2003)" stroke-width="0.790962" />
                 <path d="M12.4633 14.282C13.3696 14.282 14.1043 13.5473 14.1043 12.641C14.1043 11.7347 13.3696 11 12.4633 11C11.557 11 10.8223 11.7347 10.8223 12.641C10.8223 13.5473 11.557 14.282 12.4633 14.282Z" fill="url(#paint1_linear_2_2003)" />
                 <path d="M14.1046 16.7436H10.8225V27H14.1046V16.7436Z" fill="url(#paint2_linear_2_2003)" />
@@ -107,6 +104,39 @@ export const LinkdinIcon = () => {
                 </defs>
             </svg>
 
+        </>
+    )
+}
+export const ArrowNext = () => {
+    return (
+        <>
+            <svg className="group" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="22" cy="22" r="22" transform="matrix(-1 0 0 1 44 0)" fill="url(#paint0_linear_2_1776)" className="group-hover:fill-[white]" />
+                <path d="M17.2008 16.0001L23.2008 22.0001L17.2008 28.0001L18.4008 30.4001L26.8008 22.0001L18.4008 13.6001L17.2008 16.0001Z" fill="#F4F4F4" className="group-hover:fill-[#FF6309]" />
+                <defs>
+                    <linearGradient id="paint0_linear_2_1776" x1="-1.14444e-07" y1="1.29412" x2="20.5626" y2="32.2782" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF2801" />
+                        <stop offset="1" stop-color="#FF6B0A" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+        </>
+    )
+}
+export const ArrowPrev = () => {
+    return (
+        <>
+            <svg className="group" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="22" cy="22" r="22" fill="url(#paint0_linear_2_1773)" className="group-hover:fill-[white]"/>
+                <path d="M26.7992 16.0001L20.7992 22.0001L26.7992 28.0001L25.5992 30.4001L17.1992 22.0001L25.5992 13.6001L26.7992 16.0001Z" fill="#F4F4F4" className="group-hover:fill-[#FF6309] transition-all duration-500 ease-linear" />
+                <defs>
+                    <linearGradient id="paint0_linear_2_1773" x1="-1.14444e-07" y1="1.29412" x2="20.5626" y2="32.2782" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF2801" />
+                        <stop offset="1" stop-color="#FF6B0A" />
+                    </linearGradient>
+                </defs>
+            </svg>
         </>
     )
 }

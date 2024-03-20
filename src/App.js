@@ -1,8 +1,12 @@
 import './App.css';
-import About from './Components/About';
-import Header from './Components/Header';
-import ProgramForWhom from './Components/ProgramForWhom';
-import SoftwareCourse from './Components/SoftwareCourse';
+import Header from './components/Header';
+import About from './components/About';
+// import Footer from './components/Footer';
+// import OurGuarantee from './components/OurGuarantee';
+import ProgramForWhom from './components/ProgramForWhom';
+// import Reviews from './components/Reviews';
+import SoftwareCourse from './components/SoftwareCourse';
+// import WhoWeAre from './components/WhoWeAre';
 
 function App() {
   return (
@@ -11,7 +15,11 @@ function App() {
         <Header />
         <About />
         <SoftwareCourse />
-        <ProgramForWhom/>
+        <ProgramForWhom />
+        {/* <Reviews />
+        <OurGuarantee />
+        <WhoWeAre />
+        <Footer /> */}
       </div>
     </>
   );

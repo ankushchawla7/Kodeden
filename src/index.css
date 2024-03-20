@@ -4,26 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-  font-family: "Jost", sans-serif;
-}
-
 html,
 body {
   scroll-behavior: smooth;
-}
-
-.ff-jost {
   font-family: "Jost", sans-serif;
-}
-
-.header-bg {
-  background-image: url('./assets/images/png/header-bg.png');
-}
-
-.button-gradient {
-  background: linear-gradient(146.43deg, #FF2801 1.77%, #FF6B0A 62.74%);
-  transition: all 200ms linear;
 }
 
 .button-gradient:hover {
@@ -32,15 +16,11 @@ body {
 }
 
 .nav_link:hover {
-  background: linear-gradient(146.43deg, #FF2801 1.77%, #FF6B0A 62.74%);
-  background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text {
-  background: linear-gradient(146.43deg, #FF2801 1.77%, #FF6B0A 62.74%);
-  background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -49,14 +29,24 @@ li::marker {
   font-size: 9px;
 }
 
-.before-arrow::after {
-  content: url('./assets/images/svg/arrow-icon.svg');
-  position: absolute;
-  right: -23px;
-  top: 0;
-  transition: all 200ms linear;
+.reviews-card-section .slick-track {
+  display: flex !important;
 }
 
-.course-card:hover .before-arrow::after {
-  right: -30px;
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+  padding-inline: 12px !important;
+}
+
+.slick-slide>div {
+  display: flex;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
+
+.slick-dots {
+  bottom: -40px !important;
 }
