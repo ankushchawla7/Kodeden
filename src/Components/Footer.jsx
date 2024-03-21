@@ -1,4 +1,4 @@
-import footerLogo from '../assets/images/png/footer-logo.webp'
+import footerLogo from '../assets/images/webp/footer-logo.webp'
 
 const Footer = () => {
     return (

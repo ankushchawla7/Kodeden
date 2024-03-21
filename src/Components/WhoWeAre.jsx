@@ -1,4 +1,4 @@
-import whoWeAreImg from '../assets/images/png/WhoWeAre-section-img.webp'
+import whoWeAreImg from '../assets/images/webp/WhoWeAre-section-img.webp'
 import PhoneCallIcon from './Icons'
 
 const WhoWeAre = () => {

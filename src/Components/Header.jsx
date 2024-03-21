@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import headerLogo from '../assets/images/svg/kodeden-logo.svg'
-import heroSideVector from '../assets/images/png/hero-side-vector.webp'
+import heroSideVector from '../assets/images/webp/hero-side-vector.webp'
 import PhoneCallIcon, { InstagramIcon, LinkdinIcon, TelegramIcon, TwitterIcon } from './Icons'
 import coursesDemo from '../assets/video/courseDemo.mp4'
 import close from '../assets/images/svg/close.svg'
@@ -29,7 +29,7 @@ const Header = () => {
     ]
     return (
         <>
-            <header className='header-bg bg-[url("./assets/images/png/header-bg.webp")] bg-cover bg-no-repeat bg-center  pt-4 flex flex-col'>
+            <header className='header-bg bg-[url("./assets/images/webp/header-bg.webp")] bg-cover bg-no-repeat bg-center  pt-4 flex flex-col'>
                 <nav>
                     <div className="max-w-[min(1140px,100%-24px)] mx-auto flex items-center justify-between">
                         <a href="/"><img src={headerLogo} alt="kodeden" className='h-[47px] w-[58px]' /></a>

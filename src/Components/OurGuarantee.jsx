@@ -1,5 +1,5 @@
 import PhoneCallIcon from './Icons'
-import kodeDenGuaranteeImg from '../assets/images/png/KodedeGuarantee-img.webp'
+import kodeDenGuaranteeImg from '../assets/images/webp/KodedeGuarantee-img.webp'
 
 const OurGuarantee = () => {
     return (

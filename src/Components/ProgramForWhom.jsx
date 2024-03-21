@@ -1,4 +1,4 @@
-import programForWhomImg from '../assets/images/png/ProgramForWhom-img.webp'
+import programForWhomImg from '../assets/images/webp/ProgramForWhom-img.webp'
 
 const ProgramForWhom = () => {
     return (

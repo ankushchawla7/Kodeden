@@ -1,6 +1,6 @@
-import aboutSectionImg from '../assets/images/png/about-section-img.webp'
+import aboutSectionImg from '../assets/images/webp/about-section-img.webp'
 import PhoneCallIcon from './Icons'
-import aboutSectionVector from '../assets/images/png/about-section-vector.webp'
+import aboutSectionVector from '../assets/images/webp/about-section-vector.webp'
 
 const About = () => {
     return (

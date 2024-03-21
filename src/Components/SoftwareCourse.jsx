@@ -1,7 +1,7 @@
-import fullStackIcon from '../assets/images/png/master-fullstack-icon.webp'
-import portfolionIcon from '../assets/images/png/portfolio-icon.webp'
-import techCarrierIcon from '../assets/images/png/tech-carrier-icon.webp'
-import CourseVector from '../assets/images/png/course-vector.webp'
+import fullStackIcon from '../assets/images/webp/master-fullstack-icon.webp'
+import portfolionIcon from '../assets/images/webp/portfolio-icon.webp'
+import techCarrierIcon from '../assets/images/webp/tech-carrier-icon.webp'
+import CourseVector from '../assets/images/webp/course-vector.webp'
 
 const SoftwareCourse = () => {
     return (

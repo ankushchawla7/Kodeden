@@ -1,9 +1,9 @@
 import React from 'react'
-import rossPic from '../assets/images/png/Ross-pic.webp'
-import lukePic from '../assets/images/png/Luke-pic.webp'
-import lesliePic from '../assets/images/png/Leslie-pic.webp'
+import rossPic from '../assets/images/webp/Ross-pic.webp'
+import lukePic from '../assets/images/webp/Luke-pic.webp'
+import lesliePic from '../assets/images/webp/Leslie-pic.webp'
 import PhoneCallIcon from './Icons'
-import reviewersLinkdinIcon from '../assets/images/png/reviewers-linkdin-icon.webp'
+import reviewersLinkdinIcon from '../assets/images/webp/reviewers-linkdin-icon.webp'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
